@@ -5,17 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Order summary component</title>
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <img src="images/illustration-hero.svg" alt="">
+    <img src="images/illustration-hero.svg" alt="An illustration of a happy woman with headphones" class="illustration">
     <h1>Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!</p>
-    
+    <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    <div class="planContainer">
 
+      <div class="priceContainer"> 
+      <img src="images/icon-music.svg" alt="Music icon" class="musicIcon">
+      <div class="priceDetails">
+        <p><span>Annual Plan</span></p>
+        <p class="price">$59.99/year</p>
+      </div>
+      </div>
 
+      <a href="#" class="change">Change</a>
+    </div>
+    <button>Proceed to Payment</button>
+    <a href="#" class="cancelOrder">Cancel Order</a>
   </main>
-  
 </body>
 </html>

@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100dvh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: #e0e8ff;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    overflow: hidden;
+    background-color: white;
+    width: 350px;
+    max-width: 85%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.illustration{
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.description{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-top: 15px;
+    line-height: 23px;
+    font-size: 1rem;
+}
+
+.planContainer{
+    background-color: #f2f3fc;
+    display: flex;
+    border-radius: 5px;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.priceContainer{
+    display: flex;
+    gap: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.musicIcon{
+    width: 25%;
+    margin-top: 1px;
+}
+
+
+.priceDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+
+span{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+.price{
+    color: hsl(224, 23%, 55%);;
+}
+
+.change{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    color: #2518b1;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.change:hover{
+    text-decoration: none;
+    color: #b1aee9;
+}
+
+button{
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color:#382ae1;
+    color: white;
+    border: none;
+    width: 85%;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0px 10px 7px #dddaf7;
+}
+
+button:hover{
+    background-color: #766cf1;
+}
+
+.cancelOrder{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    padding-bottom: 30px;
+    color:#a5acbe;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.cancelOrder:hover{
+    color: #3f465a;
+}
+
+@media (max-width: 600px) {
+
+body{
+    background-image: url(images/pattern-background-mobile.svg);
+}
+
+}
+
+@media (max-width: 340px) {
+
+main{
+    height: 98dvh;
+    margin-bottom: 5px;
+}
+
+.cancelOrder{
+    margin-top: 10px;
+}
+
+}
