@@ -36,4 +36,4 @@ While working on this project, I reinforced my understanding of:
 
 Here’s a little code snippet I’m proud of:
 
-I got a little better at using GIT and Git.
+I got a little better at using GIT and Git, and I'm trying to improve
